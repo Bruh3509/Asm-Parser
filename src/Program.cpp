@@ -50,5 +50,6 @@ int Program::main()
 	std::ofstream fOut;
 	fOut.open(out);
 	IOConsole<std::string, std::string>::print(data, fOut);
+	fOut.close();
 	return 0;
 }
