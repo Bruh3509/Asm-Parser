@@ -1,0 +1,21 @@
+# ninja log v5
+3	724	1693838251730800959	CMakeFiles/asmPars.dir/src/Program.cpp.o	32831ab60f4195de
+1	248	1693838299563155071	CMakeFiles/asmPars.dir/src/main.cpp.o	437f0421fefd0a03
+1	417	1693838251422798736	CMakeFiles/asmPars.dir/src/Command.cpp.o	f618642b52ac2027
+2	593	1693838251598800006	CMakeFiles/asmPars.dir/src/Mov.cpp.o	7e67160f63af9704
+2	602	1693838251606800064	CMakeFiles/asmPars.dir/src/Mul.cpp.o	98251d62813fc3dd
+2	730	1693838251734800988	CMakeFiles/asmPars.dir/src/Parsing.cpp.o	1b73eaecfa44a6fd
+1	475	1693838251482799169	CMakeFiles/asmPars.dir/src/IOConsole.cpp.o	230abef24e709c34
+248	370	1693838299683155981	asmPars	821fd45aabf17949
+1	655	1693838251662800468	CMakeFiles/asmPars.dir/src/FileReader.cpp.o	fca794349f07c84f
+0	681	1693838251686800641	CMakeFiles/asmPars.dir/src/Add.cpp.o	68f52209cecdff5c
+2	378	1693838572421450782	CMakeFiles/asmPars.dir/src/Command.cpp.o	f618642b52ac2027
+3	510	1693838572553451985	CMakeFiles/asmPars.dir/src/main.cpp.o	437f0421fefd0a03
+2	574	1693838572617452568	CMakeFiles/asmPars.dir/src/IOConsole.cpp.o	230abef24e709c34
+1	590	1693838572633452714	CMakeFiles/asmPars.dir/src/Add.cpp.o	68f52209cecdff5c
+2	631	1693838572677453115	CMakeFiles/asmPars.dir/src/FileReader.cpp.o	fca794349f07c84f
+3	645	1693838572689453224	CMakeFiles/asmPars.dir/src/Mov.cpp.o	7e67160f63af9704
+3	714	1693838572757453843	CMakeFiles/asmPars.dir/src/Mul.cpp.o	98251d62813fc3dd
+4	777	1693838572821454426	CMakeFiles/asmPars.dir/src/Parsing.cpp.o	1b73eaecfa44a6fd
+4	792	1693838572837454572	CMakeFiles/asmPars.dir/src/Program.cpp.o	32831ab60f4195de
+792	916	1693838572961455702	asmPars	821fd45aabf17949

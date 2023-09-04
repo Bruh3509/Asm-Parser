@@ -1,0 +1,13 @@
+.data
+x00 -1
+x01 3
+x02 2
+x03 1
+x04 10
+x05 ?
+.code
+mov x00 x03
+mov x01 x02
+add x00 x01
+mov Aka x00
+.end

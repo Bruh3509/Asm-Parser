@@ -1,0 +1,3 @@
+/home/bruh/Assembler/asmPars/cmake-build-debug/CMakeFiles/asmPars.dir
+/home/bruh/Assembler/asmPars/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bruh/Assembler/asmPars/cmake-build-debug/CMakeFiles/rebuild_cache.dir
