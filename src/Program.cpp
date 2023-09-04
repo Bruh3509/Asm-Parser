@@ -1,12 +1,5 @@
 #include "Program.h"
-#include "Add.h"
-#include "Command.h"
-#include "FileReader.h"
-#include "IOConsole.h"
-#include "Mov.h"
-#include "Mul.h"
-#include "Parsing.h"
-#include <string>
+
 int Program::main()
 {
 	FileReader fileReader{in};
@@ -32,18 +25,19 @@ int Program::main()
 		}
 	}
 
-	Command *cmd;
+	std::unique_ptr<Command> cmd;
 	for (const auto &i : commands) {
 		std::pair<std::string, std::string> cPair = Parsing::parseStr(i);
-		if (cPair.first == "mov") {
-			cmd = new Mov(cPair.second);
-		}
-		else if (cPair.first == "add") {
-			cmd = new Add(cPair.second);
-		}
-		else if (cPair.first == "mul") {
-			cmd = new Mul(cPair.second);
-		}
+		if (cPair.first == "mov")
+			cmd = std::make_unique<Mov>(cPair.second);
+		else if (cPair.first == "add")
+			cmd = std::make_unique<Add>(cPair.second);
+		else if (cPair.first == "mul")
+			cmd = std::make_unique<Mul>(cPair.second);
+		else if (cPair.first == "sub")
+			cmd = std::make_unique<Sub>(cPair.second);
+		else if (cPair.first == "div")
+			cmd = std::make_unique<Div>(cPair.second);
 		cmd->exec(data);
 	}
 

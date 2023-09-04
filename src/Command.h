@@ -11,7 +11,7 @@ public:
 	explicit Command(std::string &command) : command{command} {}
 
 	virtual void exec(std::map<std::string, std::string> &) = 0;
-
+	virtual ~Command() = default;
 protected:
 	std::string command;
 };

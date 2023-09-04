@@ -103,6 +103,18 @@ build CMakeFiles/asmPars.dir/src/Program.cpp.o: CXX_COMPILER__asmPars_unscanned_
   OBJECT_DIR = CMakeFiles/asmPars.dir
   OBJECT_FILE_DIR = CMakeFiles/asmPars.dir/src
 
+build CMakeFiles/asmPars.dir/src/Sub.cpp.o: CXX_COMPILER__asmPars_unscanned_Debug /home/bruh/Assembler/asmPars/src/Sub.cpp || cmake_object_order_depends_target_asmPars
+  DEP_FILE = CMakeFiles/asmPars.dir/src/Sub.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/asmPars.dir
+  OBJECT_FILE_DIR = CMakeFiles/asmPars.dir/src
+
+build CMakeFiles/asmPars.dir/src/Div.cpp.o: CXX_COMPILER__asmPars_unscanned_Debug /home/bruh/Assembler/asmPars/src/Div.cpp || cmake_object_order_depends_target_asmPars
+  DEP_FILE = CMakeFiles/asmPars.dir/src/Div.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/asmPars.dir
+  OBJECT_FILE_DIR = CMakeFiles/asmPars.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target asmPars
@@ -111,7 +123,7 @@ build CMakeFiles/asmPars.dir/src/Program.cpp.o: CXX_COMPILER__asmPars_unscanned_
 #############################################
 # Link the executable asmPars
 
-build asmPars: CXX_EXECUTABLE_LINKER__asmPars_Debug CMakeFiles/asmPars.dir/src/Add.cpp.o CMakeFiles/asmPars.dir/src/Command.cpp.o CMakeFiles/asmPars.dir/src/FileReader.cpp.o CMakeFiles/asmPars.dir/src/IOConsole.cpp.o CMakeFiles/asmPars.dir/src/main.cpp.o CMakeFiles/asmPars.dir/src/Mov.cpp.o CMakeFiles/asmPars.dir/src/Mul.cpp.o CMakeFiles/asmPars.dir/src/Parsing.cpp.o CMakeFiles/asmPars.dir/src/Program.cpp.o
+build asmPars: CXX_EXECUTABLE_LINKER__asmPars_Debug CMakeFiles/asmPars.dir/src/Add.cpp.o CMakeFiles/asmPars.dir/src/Command.cpp.o CMakeFiles/asmPars.dir/src/FileReader.cpp.o CMakeFiles/asmPars.dir/src/IOConsole.cpp.o CMakeFiles/asmPars.dir/src/main.cpp.o CMakeFiles/asmPars.dir/src/Mov.cpp.o CMakeFiles/asmPars.dir/src/Mul.cpp.o CMakeFiles/asmPars.dir/src/Parsing.cpp.o CMakeFiles/asmPars.dir/src/Program.cpp.o CMakeFiles/asmPars.dir/src/Sub.cpp.o CMakeFiles/asmPars.dir/src/Div.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/asmPars.dir
   POST_BUILD = :

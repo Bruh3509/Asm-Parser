@@ -1,7 +1,6 @@
-#include "Mul.h"
+#include "Sub.h"
 
-
-void Mul::exec(std::map<std::string, std::string> &data)
+void Sub::exec(std::map<std::string, std::string> &data)
 {
 	bool isD = true;
 	std::pair<std::string, std::string> operands = Parsing::parseStr(command);
@@ -14,11 +13,11 @@ void Mul::exec(std::map<std::string, std::string> &data)
 	}
 
 	if (isD) {
-		data[operands.first] = std::to_string(std::stoi(operands.second)
-											  * std::stoi(data[operands.first]));
+		data[operands.first] = std::to_string(std::stoi(data[operands.first])
+											  - std::stoi(operands.second));
 	}
 	else {
 		data[operands.first] = std::to_string(std::stoi(data[operands.first])
-											  * std::stoi(data[operands.second]));
+											  - std::stoi(data[operands.second]));
 	}
 }

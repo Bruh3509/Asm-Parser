@@ -12,4 +12,8 @@ add_executable(asmPars
 		src/Mov.cpp
 		src/Mul.cpp
 		src/Parsing.cpp
-		src/Program.cpp)
+		src/Program.cpp
+		src/Sub.cpp
+		src/Sub.h
+		src/Div.cpp
+		src/Div.h)

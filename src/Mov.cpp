@@ -1,5 +1,4 @@
 #include "Mov.h"
-#include "Parsing.h"
 
 void Mov::exec(std::map<std::string, std::string> &data)
 {

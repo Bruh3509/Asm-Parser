@@ -1,8 +1,19 @@
 #ifndef PROGRAM_H
 #define PROGRAM_H
 
-#include <iostream>
-#include <utility>
+#include "Add.h"
+#include "Command.h"
+#include "FileReader.h"
+#include "IOConsole.h"
+#include "Mov.h"
+#include "Mul.h"
+#include "Sub.h"
+#include "Div.h"
+#include "Parsing.h"
+
+#include <memory>
+#include <string>
+
 class Program
 {
 

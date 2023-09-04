@@ -8,6 +8,6 @@ x05 ?
 .code
 mov x00 x03
 mov x01 x02
-add x00 x01
+div x00 x01
 mov Aka x00
 .end
